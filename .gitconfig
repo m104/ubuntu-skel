@@ -1,0 +1,16 @@
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[push]
+  default = upstream
+[alias]
+  aa = add -A
+  co = checkout
+  ci = commit
+  dw = diff --word-diff=color
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  lw = log -u --word-diff=color

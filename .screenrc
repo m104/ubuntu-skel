@@ -1,0 +1,10 @@
+shelltitle ''
+startup_message off
+vbell off
+defscrollback 3000
+
+hardstatus alwayslastline
+hardstatus string "%{= kw} %?%-w%?%{bW}%n %t%?(%u)%?%{r}%{= kw}%?%+w%?%? %= %{= kB}%H "
+
+screen -t main 0
+

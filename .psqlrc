@@ -1,0 +1,11 @@
+\set HISTFILE ~/.psql_history- :DBNAME
+\set HISTSIZE 2000
+
+\set PROMPT1 '%n@%m:%/> '
+
+\timing on
+
+\encoding UTF8
+\pset null 'NULL'
+\pset pager always
+
